@@ -94,7 +94,7 @@ def get_Weather(lot,lat):
     return res
 
 def get_Coordinates(location_name):
-    appid = "xxxAPIKeyxxx"#Yahoo! Open Local Platform APIKey
+    appid = "xxxAppidxxx"#Yahoo! Open Local Platform APIKey
     output = "json"
     query = location_name
     url = "https://map.yahooapis.jp/geocode/V1/geoCoder?"
