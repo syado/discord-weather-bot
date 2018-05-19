@@ -3,13 +3,13 @@
 <br>
 ## 動作に必要な環境
 - [python3](https://www.python.org/downloads/)<br>
-- [discord.py](https://github.com/Rapptz/discord.py)<br>
+- [discord.py](https://github.com/Rapptz/discord.py)(Python Library)<br>
 - [requests](https://github.com/requests/requests)(Python Library)<br>
 
 ## APIkey等の設定
-- [OpenWeatherMap](https://openweathermap.org/)でkeyを取得し、ソースコードに追加<br>
-- [Yahoo!API](https://e.developer.yahoo.co.jp/register)でappidを取得し、ソースコードに追加<br>
-- [Discord](https://discordapp.com/developers/applications/me)でtokenを取得し、ソースコードに追加<br>
+- [OpenWeatherMap](https://openweathermap.org/)でkeyを取得、configファイルに記入<br>
+- [Yahoo!API](https://e.developer.yahoo.co.jp/register)でappidを取得、configファイルに記入<br>
+- [Discord](https://discordapp.com/developers/applications/me)でtokenを取得、configファイルに記入<br>
 
 ## コマンド
 ```
