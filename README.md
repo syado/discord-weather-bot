@@ -7,9 +7,10 @@
 - [requests](https://github.com/requests/requests)(Python Library)<br>
 
 ## APIkey等の設定
-- [OpenWeatherMap](https://openweathermap.org/)でkeyを取得、configファイルに記入<br>
-- [Yahoo!API](https://e.developer.yahoo.co.jp/register)でappidを取得、configファイルに記入<br>
-- [Discord](https://discordapp.com/developers/applications/me)でtokenを取得、configファイルに記入<br>
+- [OpenWeatherMap](https://openweathermap.org/)<br>
+- [Yahoo!API](https://e.developer.yahoo.co.jp/register)<br>
+- [Discord](https://discordapp.com/developers/applications/me)<br>
+上記のAPIkey等を取得し、configファイルに記入
 
 ## コマンド
 ```
