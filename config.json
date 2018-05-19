@@ -1,0 +1,11 @@
+{
+    "yahoo": {
+        "appid": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "openweathermap": {
+        "appid": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+    },
+    "discord": {
+        "token": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+    }
+}
