@@ -10,7 +10,7 @@
 - [OpenWeatherMap](https://openweathermap.org/)<br>
 - [Yahoo!API](https://e.developer.yahoo.co.jp/register)<br>
 - [Discord](https://discordapp.com/developers/applications/me)<br>
-上記のAPIkey等を取得し、configファイルに記入
+- 上記のAPIkey等を取得し、configファイルに記入
 
 ## コマンド
 ```
