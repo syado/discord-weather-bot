@@ -3,7 +3,7 @@
         "appid": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
     },
     "openweathermap": {
-        "appid": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
+        "key": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
     },
     "discord": {
         "token": "xxxxxxxxxxxxxxxxxxxxxxxxxx"
