@@ -14,12 +14,12 @@ f.close()
 
 token = config["discord"]["token"]
 yahoo_appid = config["yahoo"]["appid"]
-weather_appid = config["openweathermap"]["appid"]
+weather_key = config["openweathermap"]["key"]
 
 client = discord.Client()
 
 def get_Weather(lot,lat):
-    appid = weather_appid
+    appid = weather_key
     output = "json"
     url = "http://api.openweathermap.org/data/2.5/weather?"
     url += "APPID=" + appid
