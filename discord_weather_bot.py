@@ -18,7 +18,7 @@ weather_key = config["openweathermap"]["key"]
 
 client = discord.Client()
 
-def get_Weather(lot,lat):
+def get_Weather(lot,lat): 
     appid = weather_key
     output = "json"
     url = "http://api.openweathermap.org/data/2.5/weather?"
@@ -59,7 +59,7 @@ def get_Weather_info(location_name):
 
 @client.event
 async def on_ready():
-    print('Logged in as')
+    print('Login as')
     print(client.user.name)
     print(client.user.id)
     print('------')
@@ -71,12 +71,12 @@ async def on_message(message):
         if messagelist[0] == "天気":
             location_name = messagelist[1]
             em = get_Weather_info(location_name)
-            return await client.send_message(message.channel,embed=em)
+            return await message.channel.send(message.channel,embed=em)
 
         if messagelist[1] == "天気":
             location_name = messagelist[0]
             em = get_Weather_info(location_name)
-            return await client.send_message(message.channel,embed=em)
+            return await message.channel.send(message.channel,embed=em)
 
 
 if __name__ == "__main__":
