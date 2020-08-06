@@ -59,7 +59,7 @@ def get_Weather_info(location_name):
 
 @client.event
 async def on_ready():
-    print('Login as')
+    print('Logged in as')
     print(client.user.name)
     print(client.user.id)
     print('------')
